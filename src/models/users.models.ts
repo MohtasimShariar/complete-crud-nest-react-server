@@ -16,6 +16,9 @@ export class User {
 
   @Prop({ required: true })
   country: string;
+
+  @Prop({ required: true })
+  state: string;
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);
